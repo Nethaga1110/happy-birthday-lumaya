@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Lumaya Poojani❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-heart">♥</div>
+        <p>Preparing something special...</p>
+    </div>
+
+    <!-- Background -->
+    <div class="particles"></div>
+
+    <!-- Login Screen -->
+    <section id="loginScreen" class="login-screen">
+        <div class="login-card" id="loginCard">
+            <div class="lock-icon">🔒</div>
+            <h2>Private Access</h2>
+            <p>Enter your details to unlock your surprise</p>
+
+            <form id="loginForm" onsubmit="return false;">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="e.g. Lumaya" autocomplete="off" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit" id="loginBtn">Unlock Gift ❤️</button>
+                <div id="loginError"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Surprise Intro -->
+    <section id="intro" class="intro">
+        <div class="intro-content">
+
+            <div class="small-text">A LITTLE SURPRISE FOR</div>
+
+            <h1>Lumaya Poojani</h1>
+
+            <div class="line"></div>
+
+            <p>
+                Today is not just another day...
+                <br>
+                It's a day worth celebrating. ❤️
+            </p>
+
+            <button id="openBtn">
+                <span>Open Your Surprise</span>
+                <span class="gift">🎁</span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Main Website -->
+    <main id="mainContent" class="hidden">
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">A SPECIAL DAY FOR SOMEONE SPECIAL</p>
+
+                <h2>
+                    Happy Birthday
+                    <span>Lumaya</span>
+                </h2>
+
+                <p class="hero-description">
+                    Today is your day. So take a moment,
+                    smile, and enjoy every little bit of it. ❤️
+                </p>
+
+                <div class="scroll-indicator">
+                    <span>SCROLL TO DISCOVER</span>
+                    <div class="scroll-line"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Birthday Message -->
+        <section class="message section">
+
+            <div class="section-heading reveal">
+                <span></span>
+                <h3>A Message For You</h3>
+            </div>
+
+            <div class="message-card reveal">
+
+                <div class="quote">“</div>
+
+                <p>
+                    Happy Birthday, Lumaya! ❤️
+                </p>
+
+                <p>
+                    Today is all about celebrating you and the wonderful
+                    person you are. May this new chapter of your life be
+                    filled with happiness, beautiful memories, exciting
+                    opportunities, and countless reasons to smile.
+                </p>
+
+                <p>
+                    Keep being the amazing person you are, keep chasing
+                    your dreams, and never forget how special you are to
+                    the people around you.
+                </p>
+
+                <p>
+                    I hope every moment of this year brings you something
+                    worth remembering. May your wishes turn into reality
+                    and your days be filled with love, laughter, and happiness.
+                </p>
+
+                <p>
+                    Happy Birthday once again, Lumaya! 🎂❤️
+                </p>
+
+                <!-- Sender Signature: Nethaga -->
+                <div class="signature">
+                    <span>With all my love &amp; warmest wishes,</span>
+                    <div class="signature-name">Nethaga</div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Memories (PHOTOS SECTION) -->
+        <section class="memories section">
+
+            <div class="section-heading reveal">
+                <span></span>
+                <h3>That Beautiful Smile 🌸</h3>
+            </div>
+
+            <p class="section-subtitle reveal">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The smile that makes everything around feel so much better
+            </p>
+
+            <div class="memory-grid">
+
+                <!-- Photo 01 -->
+                <div class="memory-card reveal">
+                    <div class="photo-wrapper">
+                        <img src="images/photo1.png" alt="Memory 01" onerror="this.src='https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                </div>
+
+                <!-- Photo 02 -->
+                <div class="memory-card reveal">
+                    <div class="photo-wrapper">
+                        <img src="images/photo2.png" alt="Memory 02" onerror="this.src='https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                </div>
+
+                <!-- Photo 03 -->
+                <div class="memory-card reveal">
+                    <div class="photo-wrapper">
+                        <img src="images/photo3.png" alt="Memory 03" onerror="this.src='https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Timeline -->
+        <section class="timeline-section section">
+
+            <div class="section-heading reveal">
+                <span></span>
+                <h3>A Little Journey</h3>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span>THEN</span>
+                        <h4>Memories Begin</h4>
+                        <p>
+                            Every beautiful story starts with a simple moment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span>MEMORIES</span>
+                        <h4>Moments Worth Keeping</h4>
+                        <p>
+                            The little moments often become the biggest memories.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span>TODAY</span>
+                        <h4>Your Special Day</h4>
+                        <p>
+                            Today, we celebrate you and everything that makes
+                            you special.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span>NEXT</span>
+                        <h4>A Beautiful New Chapter</h4>
+                        <p>
+                            Here's to new dreams, new adventures and
+                            unforgettable moments.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Final Surprise -->
+        <section class="final-section">
+
+            <div class="final-glow"></div>
+
+            <div class="final-content reveal">
+
+                <div class="heart-animation">♥</div>
+
+                <p class="eyebrow">ONE LAST THING...</p>
+
+                <h2>
+                    May your smile
+                    <span>never fade.</span>
+                </h2>
+
+                <p>
+                    May this year bring you more happiness than you ever imagined.
+                    Keep shining, keep smiling and keep being you.
+                </p>
+
+                <button id="celebrateBtn">
+                    Celebrate 🎉
+                </button>
+
+                <div id="finalMessage">
+                    <strong>Happy Birthday, Lumaya! ❤️</strong>
+                    <br>
+                    <span>Wishing you a beautiful year ahead. ✨</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Footer Credits: Nethaga -->
+        <footer>
+            <h3><p>Made with ❤️ for Lumaya • Wish sent by <span class="footer-sender">Nethaga</span></p></h3>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
